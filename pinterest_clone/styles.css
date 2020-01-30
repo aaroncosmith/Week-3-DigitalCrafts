@@ -6,7 +6,28 @@ html{
     background-color: black;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+
 }
-li {
-    list-style-type: none;
+
+.top {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.image-list .photo {
+    flex: 1 1 300px;
+    max-width: 120%;
+    
 }
